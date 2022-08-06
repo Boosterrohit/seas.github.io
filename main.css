@@ -1,0 +1,435 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mukta:wght@200&family=Oleo+Script:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira+Stencil+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mukta:wght@200&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira+Stencil+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mukta:wght@200&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira+Stencil+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,500&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mukta:wght@200&family=Oleo+Script:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Saira+Stencil+One&display=swap");
+.header1 {
+  font-family: "Montserrat", sans-serif;
+}
+.header1 .navbar-light .navbar-brand {
+  font-size: 12px;
+  font-weight: 500;
+}
+.header1 .navbar-expand-lg .navbar-collapse {
+  font-size: 13px;
+  font-weight: 500;
+}
+.header1 .icon {
+  font-size: 23px;
+  margin-left: 12px;
+}
+.header1 .navbar-light .navbar-nav .nav-link.active {
+  color: gray;
+}
+.header1 .navbar-light .navbar-nav .nav-link.active:hover {
+  color: rgb(188, 182, 182);
+}
+.header1 .nav-item .nav-link:hover {
+  color: rgb(188, 182, 182);
+}
+
+.t2 {
+  background-color: white;
+}
+.t2 .navbar-expand-lg .navbar-collapse {
+  font-size: 12px;
+}
+.t2 .dd a {
+  font-size: 15px;
+  font-weight: bold;
+}
+.t2 .dd a:hover {
+  background-color: #0D7083;
+}
+.t2 .dropdown .nav-link {
+  color: rgb(82, 82, 82);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  padding: 10px;
+}
+.t2 .dropdown .nav-link:hover {
+  background-color: #0D7083;
+  color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  background-color: #0D7083;
+}
+
+.dropdown-menu .dropdown-item {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.dropdown-menu .dropdown-item:hover {
+  background-color: #0D7083;
+  color: orange;
+}
+
+.nav-item .hh {
+  color: rgb(82, 80, 80);
+  font-weight: 500;
+}
+.nav-item .hh:hover {
+  background-color: #0D7083;
+  color: white;
+}
+
+.w-100 {
+  height: 500px;
+}
+
+.t3 h1 {
+  color: rgb(255, 166, 2);
+  font-weight: bold;
+  font-size: 55px;
+}
+.t3 .kd {
+  text-align: left;
+  margin-bottom: 135px;
+  margin-left: -84px;
+  font-family: "Poppins", sans-serif;
+}
+.t3 .kd .r1 {
+  font-size: 25px;
+  margin-bottom: 14px;
+  margin-top: -5px;
+  color: black;
+  font-weight: 400;
+  line-height: 24px;
+}
+.t3 .kd .ro {
+  color: rgb(44, 44, 44);
+  margin-top: -3px;
+}
+.t3 .kd .btn {
+  background-color: #0D7083;
+  border: none;
+  color: white;
+}
+.t3 .kd .btn:hover {
+  -webkit-box-shadow: 3px 3px 3px 3px rgba(24, 22, 22, 0.3);
+          box-shadow: 3px 3px 3px 3px rgba(24, 22, 22, 0.3);
+}
+
+.t4 {
+  margin-top: 45px;
+}
+.t4 h1 {
+  margin-top: 12px;
+  color: #0D7083;
+  font-size: 30px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 16px;
+}
+.t4 h1 .csama {
+  border-bottom: 6px solid orange;
+  margin-top: -12px;
+  border-radius: 4px;
+  padding-bottom: 11px;
+}
+.t4 h1 .seas {
+  color: orange;
+}
+.t4 h2 {
+  font-family: "Poppins", sans-serif;
+  color: #0D7083;
+  font-weight: 350;
+  margin-bottom: 5px;
+  margin-top: 25px;
+  letter-spacing: 2px;
+}
+.t4 p {
+  font-family: "Montserrat", sans-serif;
+  color: gray;
+  word-spacing: 4px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.t4 p a {
+  color: orange;
+}
+.t4 p a:hover {
+  text-decoration: none;
+}
+.t4 p a .n2a {
+  color: orange !important;
+}
+.t4 .btn2 {
+  border: none;
+  background-color: #737171;
+  padding: 11px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.t4 .btn2:hover {
+  -webkit-box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+.t4 .card {
+  background-color: rgb(238, 236, 236);
+  border: none;
+}
+.t4 img {
+  margin-left: 16px;
+  border: none;
+}
+.t4 .card-title {
+  margin-top: -15px;
+}
+.t4 .card-text {
+  font-size: 10px;
+  margin-top: -1px;
+}
+.t4 .card-text a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+}
+.t4 .col-md-5 {
+  margin-top: 24px;
+}
+
+.t5 {
+  margin-top: 45px;
+  color: #0D7083;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+.t5 h1 {
+  font-size: 29px;
+}
+.t5 .oc {
+  border-bottom: 6px solid orange;
+  border-radius: 2px;
+  padding-bottom: 12px;
+}
+
+.t6 {
+  margin-top: 55px;
+  background-color: rgb(234, 232, 232);
+}
+.t6 .owl-carousel.owl-loaded .item {
+  margin-top: 55px !important;
+}
+.t6 .owl-theme .owl-dots .owl-dot.active span, .t6 .owl-theme .owl-dots .owl-dot:hover span {
+  background-color: rgb(234, 232, 232);
+}
+.t6 .owl-theme .owl-dots .owl-dot span {
+  background-color: rgb(234, 232, 232);
+}
+.t6 .item img {
+  width: 150px !important;
+}
+
+.t7 {
+  background-color: rgb(234, 232, 232);
+  color: #0D7083;
+}
+.t7 h1 {
+  font-size: 29px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 45px;
+}
+.t7 h2 {
+  margin-top: 27px;
+  font-weight: 350;
+  font-size: 40px;
+}
+.t7 .se {
+  border-bottom: 6px solid orange;
+  padding-bottom: 5px;
+}
+.t7 p {
+  color: gray;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+.t7 .r {
+  margin-left: 400px;
+  margin-top: -485px;
+  width: 50px;
+}
+.t7 .o {
+  margin-left: 800px;
+  margin-top: -485px;
+}
+.t7 .carousel-inner {
+  margin-top: 45px;
+}
+.t7 .card {
+  background-color: rgb(234, 232, 232);
+  border: none;
+  text-align: left;
+}
+.t7 .btnr {
+  border: none;
+  background-color: #0D7083;
+  padding: 7px;
+}
+.t7 .btnr a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+.t7 .btno {
+  border: none;
+  background-color: orange;
+  padding: 7px;
+}
+.t7 .btno a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.t8 h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  font-weight: 300;
+  margin-top: 75px;
+}
+.t8 h1 .ma {
+  color: #0D7083;
+}
+.t8 p {
+  font-size: 13.5px;
+  font-weight: bold;
+  color: gray;
+  margin-top: 19px;
+}
+.t8 p a {
+  color: orange;
+}
+.t8 p a:hover {
+  text-decoration: none;
+}
+.t8 .btncon {
+  margin-top: 22px;
+  padding: 6px;
+  padding-right: 23px;
+  padding-left: 23px;
+  border: none;
+  background-color: orange;
+  text-align: center;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.t8 .btncon:hover {
+  background-color: rgb(245, 218, 168);
+}
+
+.t9 {
+  margin-top: 45px;
+}
+
+.t10 {
+  background-color: rgb(234, 232, 232);
+}
+.t10 h1 {
+  font-family: "Poppins", sans-serif;
+  color: #0D7083;
+  font-weight: 300;
+  padding-top: 45px;
+}
+.t10 .card a {
+  color: gray;
+  text-decoration: none;
+  font-weight: bold;
+}
+.t10 .card a:hover {
+  text-decoration: underline;
+}
+.t10 .card h6 {
+  color: gray;
+  margin-top: 15px;
+}
+.t10 .card p {
+  color: grey;
+  margin-top: 22px;
+}
+
+.rohit img {
+  margin-top: 145px;
+  padding-bottom: 111px;
+  margin-left: 5px;
+}
+
+.may {
+  text-shadow: 2px 2px black;
+  margin-top: 35px;
+}
+
+.black {
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.black h4 {
+  margin-top: 33px;
+  text-shadow: 1px 1px orange;
+}
+.black p {
+  font-size: 12px;
+  margin-top: 12px;
+}
+.black img {
+  width: 50px;
+  border-radius: 50%;
+}
+.black .rkd {
+  margin-left: 65px;
+  margin-top: -50px;
+}
+.black .kkk {
+  margin-left: 65px;
+  margin-top: -50px;
+}
+
+.black2 {
+  background-color: black;
+}
+.black2 input {
+  width: 33%;
+  border: 3px solid orange;
+}
+.black2 .ee1 {
+  background-color: orange;
+  color: white;
+  width: 20%;
+  font-weight: bold;
+}
+.black2 .ee2 {
+  height: 80px;
+  text-align: center;
+}
+.black2 p {
+  font-size: 10px;
+  color: white;
+  margin-top: 12px;
+}
+
+footer {
+  background-color: black;
+  font-family: "Poppins", sans-serif;
+}
+footer img {
+  margin-top: 45px;
+}
+footer p {
+  color: white;
+  margin-left: 185px;
+  margin-top: -80px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+}
+footer .last {
+  margin-top: 43px;
+  margin-right: 3px;
+}/*# sourceMappingURL=rr.css.map */
